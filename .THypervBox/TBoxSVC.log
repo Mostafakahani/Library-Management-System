@@ -1,0 +1,31 @@
+THypervBox COM Server 5.1.4_OSE r110228 win.amd64 (Aug  6 2020 11:19:57) release log
+00:00:00.003038 main     Log opened 2023-08-29T11:57:05.937735800Z
+00:00:00.003038 main     Build Type: release
+00:00:00.003038 main     OS Product: Windows 10
+00:00:00.003038 main     OS Release: 10.0.22621
+00:00:00.003038 main     OS Service Pack: 
+00:00:00.014152 main     DMI Product Name: System Product Name
+00:00:00.020796 main     DMI Product Version: System Version
+00:00:00.020796 main     Host RAM: 8140MB total, 1754MB available
+00:00:00.020796 main     Executable: C:\Program Files\AndroidTbox\TBoxSVC.exe
+00:00:00.020796 main     Process ID: 9676
+00:00:00.020796 main     Package type: WINDOWS_64BITS_GENERIC (OSE)
+00:00:00.021814          THypervBox: object creation starts
+00:00:00.023280          Home directory: 'C:\Users\kahan\.THypervBox'
+00:00:00.023280          Installed Drivers:
+00:00:00.025272            C:\Program Files\AndroidTbox\TBoxDrv.sys (Version: 5.1.4.10228)
+00:00:00.028274          USBLibInit: USB Service not found
+00:00:00.094477          netIfGetBoundAdapters: could not find either 'hyperv_TBoxNetLwf' or 'sun_TBoxNetFlt' components (0x1)
+00:00:00.097466          HostDnsMonitorProxy::notify
+00:00:00.097466          SUPR0QueryVTCaps -> VERR_VMX_MSR_ALL_VMX_DISABLED
+00:00:00.098439          VD: VDInit finished
+00:00:00.098439          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={db57efcf-a490-11e9-be35-005056c00008} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.099438          THypervBox: object created
+00:00:00.109938          Loading settings file "I:\Program Files\TxGameAssistant\VDI_100_x64\TVM_100.tbox" with version "1.12-windows"
+00:00:00.845159          WARNING [COM]: aRC=E_FAIL (0x80004005) aIID={db57c8c1-a490-11e9-a2fd-005056c00008} aComponent={HostWrap} aText={Could not load the Host USB Proxy Service (VERR_FILE_NOT_FOUND). The service might not be installed on the host computer}, preserve=true  aResultDetail=0
+00:03:28.480858 main     THypervBox: object deletion starts
+00:03:28.481852 main     ERROR [COM]: aRC=TBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={db5c5c9f-a490-11e9-af47-005056c00008} aComponent={MediumWrap} aText={Medium 'I:\Program Files\TxGameAssistant\VDI_100_x64\android_system_disk.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:03:28.481852 main     ERROR [COM]: aRC=TBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={db5c5c9f-a490-11e9-af47-005056c00008} aComponent={MediumWrap} aText={Medium 'I:\Program Files\TxGameAssistant\VDI_100_x64\android_data_disk.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:03:28.481852 main     ERROR [COM]: aRC=TBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={db5c5c9f-a490-11e9-af47-005056c00008} aComponent={MediumWrap} aText={Medium 'I:\Program Files\TxGameAssistant\VDI_100_x64\android_sdcard_disk.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:03:28.482973 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={db55a5e1-a490-11e9-be17-005056c00008} aComponent={THypervBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:03:28.483922 main     THypervBox: object deleted

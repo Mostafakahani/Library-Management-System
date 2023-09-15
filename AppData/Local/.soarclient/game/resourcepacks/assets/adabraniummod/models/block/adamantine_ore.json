@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/solid_all",
+    "textures": {
+        "all": "adabraniummod:block/adamantine_ore"
+    }
+}
